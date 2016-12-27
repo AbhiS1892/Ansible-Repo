@@ -1,0 +1,9 @@
+---
+- hosts: all
+
+  vars:
+    - website_dir: /var/www/oursite.dev/web
+    - our_domain: abhishek.dev
+ 
+  roles:
+    - apache
